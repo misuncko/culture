@@ -4,8 +4,8 @@
   "scripts": {
     "ng": "ng",
     "start": "run-p start-db start-app",
-    "start-app": "ng serve --port 4444 -o",
-    "start-db": "json-server --watch family.json --port 4445",
+    "start-app": "ng serve --port 4200 -o",
+    "start-db": "json-server --watch family.json --port 4222",
     "build": "ng build",
     "test": "ng test",
     "lint": "ng lint",

@@ -1,4 +1,6 @@
 import { Component, OnInit } from '@angular/core';
+import { Person } from '../person.model';
+import { FamilyServiceService } from '../family-service.service';
 
 @Component({
   selector: 'app-about-me',
@@ -7,9 +9,20 @@ import { Component, OnInit } from '@angular/core';
 })
 export class AboutMeComponent implements OnInit {
 
-  constructor() { }
+  persons: Person[];
+  constructor(private familyService: FamilyServiceService) { }
 
   ngOnInit() {
+    this.getMyFamily();
+    console.log(this.persons);
   }
 
+
+  getMyFamily() {
+    this.familyService.getFamily()
+      .subscribe(
+        (data: Person[]) => this.persons = data,
+        error => console.log("Error: ", error)
+      );
+  }
 }

@@ -1,3 +1,5 @@
-<p>
-  about-me works!
-</p>
+<div class="container">
+  <div class="card-deck">
+    <app-person *ngFor="let person of persons" [person]="person"></app-person>
+  </div>
+</div>

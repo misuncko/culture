@@ -2,6 +2,11 @@
   "family": [
     {
       "id": 1,
+      "relationship": "Me",
+      "name": "Grace Ko"
+    },
+    {
+      "id": 1,
       "relationship": "Father",
       "name": "Sanghyeon Ko"
     },
@@ -13,7 +18,27 @@
     {
       "id": 3,
       "relationship": "Sister",
+      "name": "Halyn Ko"
+    },
+    {
+      "id": 3,
+      "relationship": "Grandfather",
       "name": "Grace Ko"
+    },
+    {
+      "id": 3,
+      "relationship": "Grandmother",
+      "name": "Grace Ko"
+    },
+    {
+      "id": 4,
+      "relationship": "Pet",
+      "name": "Kyul"
+    },
+    {
+      "id": 5,
+      "relationship": "Pet",
+      "name": "Fish 1, Fish 2, Fish 3"
     }
   ]
 }
