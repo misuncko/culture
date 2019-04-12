@@ -1,0 +1,19 @@
+{
+  "family": [
+    {
+      "id": 1,
+      "relationship": "Father",
+      "name": "Sanghyeon Ko"
+    },
+    {
+      "id": 2,
+      "relationship": "Mother",
+      "name": "Misun Ko"
+    },
+    {
+      "id": 3,
+      "relationship": "Sister",
+      "name": "Grace Ko"
+    }
+  ]
+}
